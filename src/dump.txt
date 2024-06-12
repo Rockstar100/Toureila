@@ -1,0 +1,51 @@
+
+import React, { useEffect, useState } from 'react';
+import './App.css';
+import dotenv from 'dotenv';
+
+var Amadeus = require('amadeus');
+
+function App() {
+  const [flightData, setFlightData] = useState([]);
+
+  useEffect(() => {
+    dotenv.config();
+
+    var amadeus = new Amadeus({
+      clientId: '7wGcaQGHYOTkjfHVF3UPjOl1y1j16UTl',
+      clientSecret: 'dXFSzGQlARhr08yu'
+    });
+
+    amadeus.shopping.flightOffersSearch
+      .get({
+        originLocationCode: 'DEL',
+        destinationLocationCode: 'BLR',
+        departureDate: '2023-07-01',
+        adults: '2'
+      })
+      .then(function(response) {
+        setFlightData(response.data); // Save flight data to state
+      })
+      .catch(function(responseError) {
+        console.log(responseError.code);
+      });
+  }, []);
+
+  return (
+    <>
+      <h1>Hello, World!</h1>
+      <div>
+        <h2>Flight Search Results</h2>
+        {flightData.map((flight, index) => (
+          <div key={index}>
+            <p>Flight {index + 1}</p>
+            <pre>{JSON.stringify(flight, null, 2)}</pre>
+          </div>
+        ))}
+        <hr/>
+      </div>
+    </>
+  );
+}
+
+export default App;

@@ -1,0 +1,106 @@
+{
+    "segments": [
+      {
+        "legs": [
+          {
+            "originStationCode": "BOM",
+            "isDifferentOriginStation": false,
+            "destinationStationCode": "JAI",
+            "isDifferentDestinationStation": false,
+            "departureDateTime": "2023-07-01T21:25:00+05:30",
+            "arrivalDateTime": "2023-07-01T23:20:00+05:30",
+            "classOfService": "PREMIUM_ECONOMY",
+            "marketingCarrierCode": "I5",
+            "operatingCarrierCode": "I5",
+            "equipmentId": "Airbus A320-100/200",
+            "amenities": [],
+            "flightNumber": 336,
+            "seatGuruEquipmentId": 0,
+            "seatGuruAirlineUrl": "",
+            "numStops": 0,
+            "distanceInKM": 911.7022,
+            "isInternational": false,
+            "selfTransfer": false,
+            "operatingCarrier": {
+              "locationId": 8728894,
+              "code": "I5",
+              "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirAsia.png",
+              "displayName": "AirAsia"
+            },
+            "marketingCarrier": {
+              "locationId": 8728894,
+              "code": "I5",
+              "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirAsia.png",
+              "displayName": "AirAsia"
+            }
+          },
+          {
+            "originStationCode": "JAI",
+            "isDifferentOriginStation": false,
+            "destinationStationCode": "DEL",
+            "isDifferentDestinationStation": false,
+            "departureDateTime": "2023-07-02T06:20:00+05:30",
+            "arrivalDateTime": "2023-07-02T07:20:00+05:30",
+            "classOfService": "PREMIUM_ECONOMY",
+            "marketingCarrierCode": "I5",
+            "operatingCarrierCode": "I5",
+            "equipmentId": "Airbus A320-100/200",
+            "amenities": [],
+            "flightNumber": 744,
+            "seatGuruEquipmentId": 0,
+            "seatGuruAirlineUrl": "",
+            "numStops": 0,
+            "distanceInKM": 231.3189,
+            "isInternational": false,
+            "selfTransfer": false,
+            "operatingCarrier": {
+              "locationId": 8728894,
+              "code": "I5",
+              "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirAsia.png",
+              "displayName": "AirAsia"
+            },
+            "marketingCarrier": {
+              "locationId": 8728894,
+              "code": "I5",
+              "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirAsia.png",
+              "displayName": "AirAsia"
+            }
+          }
+        ],
+        "layovers": [
+          {
+            "durationType": "LONG",
+            "hasStationChange": false,
+            "durationInMinutes": 420
+          }
+        ]
+      }
+    ],
+    "purchaseLinks": [
+      {
+        "purchaseLinkId": "Kayak|1|359",
+        "providerId": "Kiwi.com",
+        "partnerSuppliedProvider": {
+          "id": "SKYPICKER",
+          "displayName": "Kiwi.com",
+          "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/SKYPICKER.png?crop=false&width=166&height=62&fallback=default3.png&_v=0cd3e94b7e8a5f027bff27942a213709"
+        },
+        "commerceName": "KayakFlightsMeta",
+        "currency": "USD",
+        "originalCurrency": "USD",
+        "seatAvailability": 0,
+        "taxesAndFees": 0,
+        "taxesAndFeesPerPassenger": 0,
+        "totalPrice": 80,
+        "totalPricePerPassenger": 80,
+        "fareBasisCodes": [],
+        "containedPurchaseLinks": [],
+        "impressionId": "c1f78687-26a6-4cd0-8a5e-395dc1f55195.15408",
+        "partnerData": {},
+        "isPaid": false,
+        "fareAttributesList": [],
+        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=e158148fd691cdd1f8e95194323a30d5&provider=Kayak|1|359&area=FLTCenterColumn|1|1|ItinList|2|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=c1f78687-26a6-4cd0-8a5e-395dc1f55195.15408&totalPricePerPassenger=80"
+      }
+    ]
+  }
+  
